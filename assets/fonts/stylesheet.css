@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaPro-SemiBold.eot');
+    src: url('SofiaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold.woff2') format('woff2'),
+        url('SofiaPro-SemiBold.woff') format('woff'),
+        url('SofiaPro-SemiBold.ttf') format('truetype'),
+        url('SofiaPro-SemiBold.svg#SofiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaPro-SemiBold_1.eot');
+    src: url('SofiaPro-SemiBold_1.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold_1.woff2') format('woff2'),
+        url('SofiaPro-SemiBold_1.woff') format('woff'),
+        url('SofiaPro-SemiBold_1.ttf') format('truetype'),
+        url('SofiaPro-SemiBold_1.svg#SofiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaPro-SemiBold_2.eot');
+    src: url('SofiaPro-SemiBold_2.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold_2.woff2') format('woff2'),
+        url('SofiaPro-SemiBold_2.woff') format('woff'),
+        url('SofiaPro-SemiBold_2.ttf') format('truetype'),
+        url('SofiaPro-SemiBold_2.svg#SofiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaPro-SemiBold_3.eot');
+    src: url('SofiaPro-SemiBold_3.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold_3.woff2') format('woff2'),
+        url('SofiaPro-SemiBold_3.woff') format('woff'),
+        url('SofiaPro-SemiBold_3.ttf') format('truetype'),
+        url('SofiaPro-SemiBold_3.svg#SofiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaPro-SemiBold_4.eot');
+    src: url('SofiaPro-SemiBold_4.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold_4.woff2') format('woff2'),
+        url('SofiaPro-SemiBold_4.woff') format('woff'),
+        url('SofiaPro-SemiBold_4.ttf') format('truetype'),
+        url('SofiaPro-SemiBold_4.svg#SofiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

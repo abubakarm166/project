@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'semi_bold';
-    src: url(../fonts/SofiaPro-SemiBold.ttf);
+    src: url(fonts/SofiaPro-SemiBold.ttf);
 }
 body{
     font-family: 'semi_bold';
@@ -68,9 +68,10 @@ tr{
 color: black;
 
 }
-th{
+/* th{
     /* border: 1px solid blue; */
-}
+    /* width: max-content !important;} */
+ 
 .td_a_medium{
     font-size: 14px;
     line-height:0.%;
@@ -90,3 +91,16 @@ th{
     color: gray;
 }
 
+.modal-input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: white;
+    /* border-color: lightgray; */
+}
+/* h6{
+    color: gray;
+} */
+select{
+    padding-right: 20px;
+    padding-left: 20px;
+}

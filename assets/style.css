@@ -1,7 +1,6 @@
-
 @font-face {
     font-family: 'semi_bold';
-    src: url(../fonts/SofiaPro-SemiBold.ttf);
+    src: url(fonts/SofiaPro-SemiBold.ttf);
 }
 body{
     line-height: 1.0 !important;

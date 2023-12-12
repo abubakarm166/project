@@ -1,0 +1,486 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   
+    <!-- Link to Bootstrap Icons CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Health Compare</title>
+  </head>
+  <body>
+    <div class="hero_section mx-0 ">
+    <div class="container-fluid px-0">
+
+    
+      <nav class="navbar navbar-expand-lg navbar-light px-0">
+        <div class="container ">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo-color.svg" alt="" class="color-logo img-fluid" style="height: 40px;width: auto;">
+            <img class="img-fluid white-logo" src="assets/health-compare-logo-white.svg" style="height: 40px;width: auto;" alt=""></a>
+          <button style="color: rgba(251, 249, 249, 0.967);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " id="first_ul">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white nav_text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Compare
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav_text text-white" href="#">Action</a></li>
+                  <li><a class="dropdown-item nav_text text-white" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider nav_text text-white"></li>
+                  <li><a class="dropdown-item nav_text text-white" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white active nav_text" aria-current="page" href="#">Your Rights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white nav_text" href="#">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white nav_text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Help & Guides
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav_text" href="#">Action</a></li>
+                  <li><a class="dropdown-item nav_text" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider nav_text"></li>
+                  <li><a class="dropdown-item nav_text" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+<div class="container">
+<div class="row mt-5">
+
+<div class="col-md-5"> 
+  <h1 class="text-white nhs" >Helping NHS patients
+    get treated faster</h1>
+    <h2 class="text-white">Here's how  <b><i class="bi bi-arrow-right fs-1"></i></b></h2>
+    <div class="content " style="position: relative;" >
+      <!-- <i class="bi bi-arrow-right-short fs-1"></i> -->
+
+      <input type="text"  class="comparetype" placeholder="Compare..." >
+      <a class="text-center searcherro" ><i class="bi bi-arrow-right-short fs-1"></i></a>
+     
+      <a class="border text-center align-middle searchicon" ><i class="bi bi-search text-white"></i></a>
+    </div>
+</div>
+<div class="col-md-6 px-0 offset-md-1"><img src="assets/dr.png" class="img-fluid" alt=""></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cont mt-5">
+  <div class="swiper mySwiper">
+    <div style="top:50%;position: absolute;z-index: 100000;display:flex;justify-content: space-between;width: 100%;">
+    <div class="swiper-button-prv"><i class="bi bi-arrow-left-circle-fill fs-1 px-3 swiper_mover"></i></div>
+    <div class="swiper-button-nxt" ><i class="bi bi-arrow-right-circle-fill fs-1 px-3 swiper_mover"></i></div>
+
+</div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide px-0 py-0"  id="first" >
+        <div class="abc" style="display: flex;flex-direction: row;justify-content: flex-end;">
+        <div class="swiper_img1" >
+          <div class="compare_ul" style=" width: 500px;">
+<ul class="text-white " >
+  <li class="list_item"><h3 class="text-white">Compare Health Insurance</h3>   
+</li>
+  <li  class="list_item">
+   <p class="p_li" ><i class="bi bi-check-lg fs-4"></i> Avoid NHS waiting lists and see a private consultant of your choice</p>
+  </li>
+   <li class="list_item">
+      <p class="p_li" ><i class="bi bi-check-lg fs-4"></i>  All featured brokers rate higher than 4 out of 5 on Trustpilot  or  Reviews.io<a href="https://uk.trustpilot.com/" target="_blank" tabindex="0" style="color: white;">Trustpilot</a>, <a href="https://feefo.com" target="_blank" tabindex="0" style="color: white;">Feefo</a>, or <a href="https://reviews.io/" target="_blank" tabindex="0" style="color: white;">Reviews.io</a></p>
+  </li>
+   <li class="list_item">
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i>  All quotes are free with no obligation.</p>
+  </li>
+</ul>
+<button class="btn campare_btn mx-md-3 my-3" >Compare Online</button>
+</div>
+</div>
+</div>
+</div>
+      <div class="swiper-slide" id="sec">
+        <div class="abc" style="display: flex;flex-direction: row;justify-content: flex-end;">
+          <div class="swiper_img2" >
+            <div class="compare_ul" style="width: 500px;">
+<ul >
+  <li class="list_item">
+<h3 class="text-white">Find the Right Online Doctor Quickly When You Need Care</h3>   
+
+  </li>
+  <li class="list_item" >
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i> Access prescriptions, referral letters and sick notes without travelling or sitting in waiting rooms</p>
+  </li>
+   <li class="list_item">
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i> Choose from free and paid options</a></p>
+  </li>
+   <li class="list_item">
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i> Some options include NHS referral for treatment.</p>
+  </li>
+</ul>
+<button class="btn campare_btn mx-md-3 my-3" >Compare Online</button>
+
+</div>
+</div>
+</div>      </div>
+      <div class="swiper-slide" id="thi">
+        <div class="abc" style="display: flex;flex-direction: row;justify-content: flex-end;">
+          <div class="swiper_img3" >
+            <div class="compare_ul" style="width: 500px">
+<ul >
+  <li class="list_item"><h3 class="text-white">Compare Travel Insurance</h3>   
+</li>
+  <li class="list_item">
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i> Totally impartial</p>
+  </li>
+   <li class="list_item">
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i> All featured insurers rate higher than four out of five on  <a href="https://uk.trustpilot.com/" target="_blank" tabindex="0" class="text-white">Trustpilot</a>, <a href="https://feefo.com" target="_blank" tabindex="0" class="text-white">Feefo</a>, or <a href="https://reviews.io/" target="_blank" tabindex="0" class="text-white">Reviews.io</a></p>
+  </li>
+   <li class="list_item">
+      <p class="p_li"><i class="bi bi-check-lg fs-4"></i> All quotes are free with no obligation.</p>
+  </li>
+</ul>
+<button class="btn campare_btn mx-md-3 my-3" >Compare Online</button>
+
+</div>
+</div>
+</div>   
+</div>
+      
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+  </div>
+<div class="hero_section_two" style="background-color:rgb(242, 248, 250);">
+<div class="container-fluid header-2-columns py-5">
+<div class=" py-5" >
+
+  <div class="row align-items-center">
+    <div class="col-12 col-lg-8 mx-lg-auto  pb-6 ">
+
+  <div class="content text-center">
+    <h3 class="text-dark" style="line-height: 1.5 !important;">How Does the Hospital Search Work?</h3>
+    <p class="p_hospital" >You have the legal right to have your free NHS treatment at an NHS or private hospital of your choice. Use Health Compare to make this choice, or to select the best hospital paid for by you or your insurance.</p>
+    
+    <p class="p_hospital">For example, you could be looking for hospitals that have the shortest waiting times for <a href="/search_result_hospital2/uttoxeter/cataract%20surgery" class="hero_two_a" >'Cataract Surgery in Uttoxeter'</a> or <a href="/search_result_hospital2/Southampton/Hip%20replacement" class="hero_two_a" >'Hip Replacement in Southampton'</a> or <a href="/search_result_hospital2/Chester/Knee%20surgery" class="hero_two_a" >'Knee Treatment in Chester'</a></p>
+    
+    <p class="p_hospital"><a href="3ThingsHome" class="hero_two_a">Read our 3 things to do now to get your NHS treatment quicker guide</a></p>
+    <button class="btn start_search mx-md-3 my-3" >Start Your Search</button>
+    <h3 style="line-height: 1.5 !important;">You may also want to read our guides on</h3>
+    <p class="p_hospital"><a class="hero_two_a">What 3 things mean you can claim for medical negligence?</a></p>
+    <p class="p_hospital"><a class="hero_two_a">What 3 things mean you can claim for NHS treatment delay?</a></p>
+    <p class="p_hospital"><a class="hero_two_a">Has waiting for your NHS treatment harmed your health?</a></p>
+
+  </div>
+  </div>
+
+</div>
+
+</div>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-6">
+      <div class="search-works">
+        <div class="card h-100 p-3 scalee">
+          <div class="row ">
+
+            <div class="col-12 col-lg-3">
+              <img src="assets/search1.svg"
+              class="mx-auto pb-2 "
+              alt="">
+            </div>
+            
+            <div class="col-12 col-lg-9" >
+              <h5>1. Read our guide</h5>
+              <p class="p_hospital">Read our guide to choosing the right hospital for your treatment here</p>
+            </div>
+          </div>
+        </div>
+        <div class="card h-100 p-3 my-3 scalee">
+          <div class="row ">
+
+            <div class="col-12 col-lg-3">
+              <img src="assets/search2.svg"
+              class="mx-auto pb-2 "
+              alt="">
+            </div>
+            
+            <div class="col-12 col-lg-9">
+              <h5>2. Search, compare and make enquiries</h5>
+              <p class="p_hospital">Use the site to make an enquiry at one or more hospitals</p>
+            </div>
+          </div>
+        </div>
+        <div class="card h-100 p-3 scalee">
+          <div class="row ">
+
+            <div class="col-12 col-lg-3">
+              <img src="assets/search3.svg"
+              class="mx-auto pb-2 "
+              alt="">
+            </div>
+            
+            <div class="col-12 col-lg-9">
+              <h5>3. Decide and inform your:</h5>
+              <p class="p_hospital">- GP/Online doctor (NHS)</p>
+              <p class="p_hospital">- Chosen hospital (if self pay)</p>
+              <p class="p_hospital">- Insurance provider (if insurance policy)</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 left-side py-3 order-2 order-lg-3">
+      <div class="c-video-phone" data-play="play">
+        <video autoplay="" loop="" muted="" playsinline="" >
+            <source src="assets/hospitals.mp4" data-src="assets/hospitals.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="hero_section_three">
+  <div style="background-color: white;">
+    <div class="container mx-lg-auto">
+      <div class="content justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 py-5">
+            <div class="container text-center">
+              <h2 class="text-black">Online Doctors</h2>
+          <p class="p_hospital">Online doctors are designed to ensure you can get a GP appointment, even if you're not able to see a GP face to face. Some providers are linked to NHS practices and are able to offer you a direct replacement to seeing your own GP, but if this isn't an option through your own practice, you can still have a private consultation with an online doctor.</p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="hero_section_four mt-5 meter_hero">
+<div class="container">
+  <div class="row pb-5 meter_row" >
+    <div class="col-md-6 pt-5">
+      <h3 class="text-white">Choose well with Health Compare</h3>
+      <p class="p_search">Search and compare over 34,000 healthcare providers.</p>
+      <button class="btn campare_btn">Compare Now</button>
+    </div>
+    <div class="col-md-6 meter_div"><img src="assets/meteer.webp" class="img-fluid meter" alt=""></div>
+  </div>
+</div>
+
+</div>
+<div class="cotainer-fluid mt-5">
+  <div class="row w-100 text-center my-2 ">
+    <h3>
+      More Ways to Make the Right Choice
+      </h3>
+  </div>
+  <div class="container">
+    <div class="row justify-content-between my-5">
+      <div class="col-lg-4 px-3" >
+        <div class="card h-100 w-auto" style="border: none;">
+          <div class="container">
+          <div class="img_cant">
+            <div class="container px-5">
+            <img src="assets/ld.webp"  class="card-img-top" alt="" style="padding-bottom: 10px;margin-top: -10px;">
+            </div>
+          </div>
+          </div>
+          <div class="px-2">
+          <div class="dr text-center"><h5>GP Practices</h5></div>
+          <div class="dr_p text-center" style="width: auto;">
+            <h6 style="color: black !important;">You have the right to choose your GP practice and practitioner, find the right GP practice for you</h6>
+            <p class="p_hospital" >Health Compare enables comparison of over 6500 GP practices across England. Use Health Compare to find the right GP practice for you</p>
+          </div>
+          </div>
+          <div class="btn">
+            <button class="btn btn-primary mx-md-3  p-2" style="border-radius: 50px; font-size: 15px;" >Compare Online</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 px-3">
+        <div class="card h-100 w-auto" style="border: none;">
+          <div class="container">
+          <div class="img_cant">
+            <div class="container px-5">
+            <img src="assets/od.webp"  class="card-img-top pb-4" alt="">
+            </div>
+          </div>
+          </div>
+          <div class="px-2">
+          <div class="dr text-center"><h5>Care Homes</h5></div>
+          <div class="dr_p text-center" style="width: auto;">
+            <h6 style="color: black !important;">Find the right care home for you or your family member
+            </h6>
+            <p class="p_hospital" >Health Compare brings together a variety of data sources to enable comparison of over 15,000 care homes in England. Use Health Compare to find the right care home for you or your loved one
+
+            </p>
+          </div>
+          </div>
+          <div class="btn">
+            <button class="btn btn-primary mx-md-3  p-2" style="border-radius: 50px; font-size: 15px;" >Compare Online</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 px-3">
+        <div class="card h-100 w-auto" style="border: none;">
+          <div class="container">
+          <div class="img_cant">
+            <div class="container px-5">
+            <img src="assets/wd.webp"  class="card-img-top pb-4" alt="">
+            </div>
+          </div>
+          </div>
+          <div class="px-2">
+          <div class="dr text-center"><h5>Care at Home</h5></div>
+          <div class="dr_p text-center" style="width: auto;">
+            <h6 style="color: black !important;">Care at home is an alternative to residential care homes
+            </h6>
+            <p class="p_hospital" >Use Health Compare to find the best quality, local, care at home providers across England
+
+            </p>
+          </div>
+          
+</div>
+<div class="btn text-center mt-md-5" >
+  <button class="btn btn-primary mx-md-3 my-3 p-2" style="border-radius: 50px; font-size: 15px;"  >Compare Online</button>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid faqs  p-5" style="background: linear-gradient(#037098, #008BA9);">
+<div class="container bg-light rounded">
+  <div class="hero-data">
+    <div class="container p-5 text-center">
+    <h3 class="py-4">Frequently Asked Questions</h3>
+    <h4 class="px-md-5 answers">
+      Still have a few things you'd like to clear up? We've put together the following simple answers to questions frequently thought, but rarely asked, about finding the right hospital for your treament.
+    </h4>
+
+    </div>
+    <div class="container px-5 qns">
+      <h5 class="py-md-3 py-2" style="color: black; ">Will I be charged for using Health Compare?
+      </h5>
+      <p class="answers">No, this service is completely free to the patient.</p>
+      <hr class="my-5">
+      <h5 class="py-2" style="color: black; ">Will the NHS really pay for me to have my NHS treatment at a private hospital?
+
+      </h5>
+      <p class="answers">Yes. If you are referred by a GP for NHS treatment, the NHS will pay for your treatment at an NHS or private hospital of your choice, as the Health and Social Care Act 2013 gives you the legal right to choose. There are some exceptions*, but most private hospitals across the UK have a contract with the NHS to perform treatments on their behalf* (<span class="hero_two_a">click here for Exceptions</span>).
+
+      </p>
+      <hr class="my-5">
+      <h5 class="py-2" style="color: black; ">Can I change hospitals if I've been waiting more than 18 weeks for treatment?
+      </h5>
+      <p class="answers">Yes. Patients have a right to start consultant-led treatment within 18 weeks of referral or request an offer of alternative providers that can start their treatment sooner. The NHS must take all reasonable steps to meet patients' requests.</p>
+
+    </div>
+    <div class="btn text-center mt-md-4 mb-md-5 w-100 view" >
+      <button class="btn view_btn mx-md-3 my-3 py-3 px-4" style="border-radius: 50px; font-size: 13px;"  >View all FAQs</button>
+    </div>
+  </div>
+
+
+</div>
+<div class="text-center my-5 pt-5">
+    <h3 style="letter-spacing: 3px;"><span class="text-white">CHOSE</span> WELL</h3>
+  </div>
+
+</div>
+
+<footer class="last bg-dark pb-5">
+  <div class="container footer_div_about d-flex pt-5">
+<div class="contact_bar">
+<ul class="contact">
+  <li><p class="footer_about">About Us</p></li>
+  <li><p class="footer_about">Contact US</p></li>
+  <li><p class="footer_about">Treatment</p></li>
+</ul>
+</div>
+<div class="contact_logo">
+  <ul class="logo">
+    <li><p class="footer_about"><i class="bi bi-facebook fs-2"></i></li>
+    <li><p class="footer_about"><i class="bi bi-twitter fs-2"></i></p></li>
+    <li><p class="footer_about"><i class="bi bi-instagram fs-2"></i></p></li>
+  </ul>
+</div>
+
+</div>
+<div class="container ">
+  <ul class="contact footer_div_two">
+    <li><p class="footer_about">Terms of Use</p></li>
+    <li><p class="footer_about">Privacy Policy</p></li>
+    <li><p class="footer_about">Cookie Policy</p></li>
+    <li><p class="footer_about">Attributions</p></li>
+  </ul>
+</div>
+<hr style="color: aliceblue;">
+<div class="container">
+  <div class="contact_logo">
+    <p class="text-white">*Your legal right to choose or qualify for NHS treatment may be restricted in some circumstances. For more information see Your Rights.
+    </p>
+    <p class="text-white">**You have the right to be referred to a different hospital if you have already waited more than 18 weeks for your treatment to start. See Section 4 of the NHS Choice Framework here.
+    </p>
+    <br>
+    <p class="text-white fw-lighter">©2023 <span class="footer_about">Health Compare®</span> All rights reserved.</p>
+    
+  </div>
+</div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-nxt",
+        prevEl: ".swiper-button-prv",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
